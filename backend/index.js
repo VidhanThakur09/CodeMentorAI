@@ -12,7 +12,7 @@ const port = 3000 || process.env.PORT;
 // cors
 
 app.use(cors({
-    origin: ["http://localhost:8080"],
+    origin: ["https://codementorai-1.onrender.com","https://codementorai-9cyd.onrender.com"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
 }));
