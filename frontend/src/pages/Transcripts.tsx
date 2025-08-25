@@ -23,7 +23,7 @@ interface Transcript {
 export default function Transcripts() {
   const { toast } = useToast();
   const backend = import.meta.env.VITE_BACKEND_URL || "http://localhost:3000";
-  const [courses, setCourses] = useState("");
+  const [courses, setCourses] = useState<Course>("nodejs");
   const [transcripts, setTranscripts] = useState<Transcript[]>([
     {
       id: "1",
