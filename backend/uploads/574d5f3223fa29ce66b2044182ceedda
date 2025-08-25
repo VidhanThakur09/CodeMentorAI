@@ -1,0 +1,789 @@
+WEBVTT
+
+1
+00:00:01.120 --> 00:00:02.960
+Hi and welcome to the video
+
+2
+00:00:02.960 --> 00:00:04.320
+of meet your instructor.
+
+3
+00:00:04.320 --> 00:00:05.280
+Hi, meet me.
+
+4
+00:00:05.280 --> 00:00:06.240
+My name is Hitesh.
+
+5
+00:00:06.800 --> 00:00:08.480
+I really wanted to have this
+
+6
+00:00:08.480 --> 00:00:10.080
+video because we'll be spending
+
+7
+00:00:10.080 --> 00:00:11.320
+so much of time together
+
+8
+00:00:11.320 --> 00:00:12.960
+in learning Python and we're going
+
+9
+00:00:12.960 --> 00:00:14.640
+to be enjoying this so much.
+
+10
+00:00:14.640 --> 00:00:16.160
+I really wanted to have a personal
+
+11
+00:00:16.160 --> 00:00:17.640
+connection and knowing a little
+
+12
+00:00:17.640 --> 00:00:19.720
+bit more about me and my style of
+
+13
+00:00:19.720 --> 00:00:20.960
+teaching and what I've been doing
+
+14
+00:00:20.960 --> 00:00:23.040
+in life makes our connection more
+
+15
+00:00:23.040 --> 00:00:24.360
+stronger and you'll be feeling
+
+16
+00:00:24.360 --> 00:00:25.560
+much more comfortable in the
+
+17
+00:00:25.560 --> 00:00:26.260
+course now.
+
+18
+00:00:26.260 --> 00:00:27.660
+Don't worry, I'm not going to.
+
+19
+00:00:27.660 --> 00:00:29.260
+I will not bore you too much
+
+20
+00:00:29.260 --> 00:00:30.740
+with the details of every
+
+21
+00:00:30.740 --> 00:00:32.180
+single thing, but enough that
+
+22
+00:00:32.180 --> 00:00:33.220
+you get the confidence that
+
+23
+00:00:33.220 --> 00:00:34.380
+you are in the right hand.
+
+24
+00:00:34.380 --> 00:00:35.300
+And I've been doing this
+
+25
+00:00:35.300 --> 00:00:36.780
+for a really long time.
+
+26
+00:00:36.780 --> 00:00:38.860
+My name is Satish and I did my
+
+27
+00:00:38.860 --> 00:00:40.180
+engineering in electronics
+
+28
+00:00:40.180 --> 00:00:42.420
+and communications, specifically not
+
+29
+00:00:42.420 --> 00:00:43.820
+in computer science.
+
+30
+00:00:43.820 --> 00:00:45.180
+So yes, anybody can
+
+31
+00:00:45.180 --> 00:00:46.380
+learn how to code.
+
+32
+00:00:46.380 --> 00:00:48.700
+It really is also not a walk
+
+33
+00:00:48.700 --> 00:00:49.980
+in the park, but especially
+
+34
+00:00:49.980 --> 00:00:51.580
+it's not really that difficult.
+
+35
+00:00:52.150 --> 00:00:54.030
+Anybody can learn to code now.
+
+36
+00:00:54.030 --> 00:00:55.350
+Once I finished my engineering
+
+37
+00:00:55.350 --> 00:00:57.270
+I moved into the Python ecosystem,
+
+38
+00:00:57.270 --> 00:00:58.870
+especially in the cybersecurity,
+
+39
+00:00:58.870 --> 00:00:59.870
+but then quickly moved
+
+40
+00:00:59.870 --> 00:01:00.990
+into the development role,
+
+41
+00:01:00.990 --> 00:01:02.710
+especially iOS development.
+
+42
+00:01:02.710 --> 00:01:04.110
+And then thereafter I moved
+
+43
+00:01:04.110 --> 00:01:05.030
+into web development
+
+44
+00:01:05.030 --> 00:01:07.030
+and databases and JavaScript
+
+45
+00:01:07.030 --> 00:01:08.670
+and again Python based development
+
+46
+00:01:08.670 --> 00:01:10.310
+and a whole lot of things.
+
+47
+00:01:10.310 --> 00:01:11.830
+Now during my life I have done
+
+48
+00:01:11.830 --> 00:01:14.340
+a fair bit of my startups as well.
+
+49
+00:01:14.340 --> 00:01:17.230
+Some of them failed and really I love
+
+50
+00:01:17.230 --> 00:01:18.790
+to show off about them as well.
+
+51
+00:01:19.300 --> 00:01:20.540
+Two of them worked really well
+
+52
+00:01:20.540 --> 00:01:21.950
+and they got acquired
+
+53
+00:01:21.950 --> 00:01:23.740
+with a pretty big deal and I
+
+54
+00:01:23.740 --> 00:01:25.580
+enjoyed that deal after that.
+
+55
+00:01:25.580 --> 00:01:27.060
+Currently also I'm running
+
+56
+00:01:27.060 --> 00:01:28.980
+two of my startups, running
+
+57
+00:01:28.980 --> 00:01:30.300
+pretty good, one of them serving
+
+58
+00:01:30.300 --> 00:01:32.100
+around 22 million users.
+
+59
+00:01:32.100 --> 00:01:34.340
+So yes we really know how to scale
+
+60
+00:01:34.340 --> 00:01:35.139
+up the things and how
+
+61
+00:01:35.139 --> 00:01:37.380
+to write great quality softwares.
+
+62
+00:01:37.380 --> 00:01:39.060
+And apart from that I also
+
+63
+00:01:39.060 --> 00:01:40.340
+run two YouTube channels.
+
+64
+00:01:40.340 --> 00:01:41.580
+One is hitting a million
+
+65
+00:01:41.580 --> 00:01:42.940
+subscribers, it is already done
+
+66
+00:01:42.940 --> 00:01:44.500
+by the time you will be watching.
+
+67
+00:01:44.500 --> 00:01:47.540
+Another one has already crossed
+
+68
+00:01:47.540 --> 00:01:50.080
+half a million subscriber and my
+
+69
+00:01:50.080 --> 00:01:51.920
+specialty is to turn the toughest
+
+70
+00:01:51.920 --> 00:01:53.560
+topic into the easiest one.
+
+71
+00:01:53.560 --> 00:01:55.600
+I read a lot of books about teaching
+
+72
+00:01:55.600 --> 00:01:57.120
+and especially yes I do read about
+
+73
+00:01:57.120 --> 00:01:58.480
+the tech as well like Python,
+
+74
+00:01:58.480 --> 00:01:59.960
+JavaScript and all that but I also
+
+75
+00:01:59.960 --> 00:02:01.800
+read a lot about the teaching
+
+76
+00:02:01.800 --> 00:02:04.000
+mechanism, how to deliver engaging
+
+77
+00:02:04.000 --> 00:02:06.040
+content and one of my specialties
+
+78
+00:02:06.040 --> 00:02:07.760
+to turn the toughest topic into the
+
+79
+00:02:07.760 --> 00:02:08.919
+easiest one.
+
+80
+00:02:08.919 --> 00:02:11.720
+I use a lot of approach in teaching
+
+81
+00:02:11.720 --> 00:02:13.280
+like for example for frameworks and
+
+82
+00:02:13.280 --> 00:02:15.970
+library I use the approach of first
+
+83
+00:02:15.970 --> 00:02:18.170
+style of learning that is you get
+
+84
+00:02:18.170 --> 00:02:20.250
+into the details, explore every bit
+
+85
+00:02:20.250 --> 00:02:22.010
+out of it and see that oh, there is
+
+86
+00:02:22.010 --> 00:02:23.450
+no magic in this framework, go
+
+87
+00:02:23.450 --> 00:02:24.810
+inside detail and create those
+
+88
+00:02:24.810 --> 00:02:25.610
+features.
+
+89
+00:02:25.610 --> 00:02:26.850
+This is also first person
+
+90
+00:02:26.850 --> 00:02:27.650
+kind of a learning,
+
+91
+00:02:27.650 --> 00:02:28.810
+first principle learning.
+
+92
+00:02:28.810 --> 00:02:30.530
+But there is another style that I
+
+93
+00:02:30.530 --> 00:02:31.730
+have explored over the year which
+
+94
+00:02:31.730 --> 00:02:34.650
+is kind of exploration learning
+
+95
+00:02:34.650 --> 00:02:36.250
+or hunting learning and
+
+96
+00:02:36.250 --> 00:02:37.770
+experimenting learning in which
+
+97
+00:02:37.770 --> 00:02:39.770
+you just go ahead and investigate
+
+98
+00:02:39.770 --> 00:02:40.210
+the things.
+
+99
+00:02:40.210 --> 00:02:41.690
+I officially termed it as
+
+100
+00:02:41.690 --> 00:02:43.170
+investigative learning but there is
+
+101
+00:02:43.170 --> 00:02:45.280
+no official documentation about it
+
+102
+00:02:45.280 --> 00:02:47.000
+in which you try to investigate
+
+103
+00:02:47.000 --> 00:02:48.720
+the things as you write them.
+
+104
+00:02:48.720 --> 00:02:50.240
+This especially works really well
+
+105
+00:02:50.240 --> 00:02:52.080
+in the programming languages
+
+106
+00:02:52.080 --> 00:02:52.920
+and especially when
+
+107
+00:02:52.920 --> 00:02:54.960
+the ground details are required.
+
+108
+00:02:54.960 --> 00:02:56.640
+So for this entire course we'll
+
+109
+00:02:56.640 --> 00:02:58.280
+be providing and we'll be focusing
+
+110
+00:02:58.280 --> 00:03:00.200
+on moreover this investigative
+
+111
+00:03:00.200 --> 00:03:01.520
+style of learning and you'll be
+
+112
+00:03:01.520 --> 00:03:03.040
+thoroughly loving this part.
+
+113
+00:03:03.040 --> 00:03:04.280
+We'll be questioning every
+
+114
+00:03:04.280 --> 00:03:06.320
+output, we'll be questioning every
+
+115
+00:03:06.320 --> 00:03:07.320
+single line of code
+
+116
+00:03:07.320 --> 00:03:08.240
+that we're going to write.
+
+117
+00:03:08.240 --> 00:03:09.880
+And this is going to be one
+
+118
+00:03:09.880 --> 00:03:11.840
+of the most amazing class that you
+
+119
+00:03:11.840 --> 00:03:13.200
+have ever seen in the Python.
+
+120
+00:03:13.760 --> 00:03:14.680
+I've delivered Python
+
+121
+00:03:14.680 --> 00:03:16.520
+in the past as well in my YouTube
+
+122
+00:03:16.520 --> 00:03:18.800
+channels as well in Hindi and other
+
+123
+00:03:18.800 --> 00:03:19.960
+languages, regional.
+
+124
+00:03:19.960 --> 00:03:22.080
+But this course is exceptional.
+
+125
+00:03:22.080 --> 00:03:24.400
+I have spent months in just
+
+126
+00:03:24.400 --> 00:03:26.320
+preparing notes for this entire
+
+127
+00:03:26.320 --> 00:03:28.480
+course and then I realized now
+
+128
+00:03:28.480 --> 00:03:29.840
+that I have done my startups and
+
+129
+00:03:29.840 --> 00:03:31.800
+I enjoy teaching now I have no
+
+130
+00:03:31.800 --> 00:03:33.920
+hurry, nothing really is
+
+131
+00:03:33.920 --> 00:03:34.840
+important for me now.
+
+132
+00:03:34.840 --> 00:03:36.640
+It just all sit back and relax.
+
+133
+00:03:36.640 --> 00:03:38.320
+You will truly understand
+
+134
+00:03:38.320 --> 00:03:40.480
+what it takes to truly master
+
+135
+00:03:40.480 --> 00:03:41.840
+a language like Python.
+
+136
+00:03:42.420 --> 00:03:43.460
+And I'm pretty sure you're going
+
+137
+00:03:43.460 --> 00:03:44.420
+to be enjoying this part.
+
+138
+00:03:44.420 --> 00:03:45.940
+If you have any doubt anything,
+
+139
+00:03:45.940 --> 00:03:47.380
+reach me out on LinkedIn or Twitter.
+
+140
+00:03:47.380 --> 00:03:49.300
+I'm pretty much active there.
+
+141
+00:03:49.300 --> 00:03:50.780
+I tweet a lot, I spend
+
+142
+00:03:50.780 --> 00:03:51.700
+a lot of time on that.
+
+143
+00:03:52.500 --> 00:03:54.020
+So reach me out, don't hesitate
+
+144
+00:03:54.020 --> 00:03:55.460
+and if there is any topic which
+
+145
+00:03:55.460 --> 00:03:57.660
+requires more video, more knowledge
+
+146
+00:03:57.660 --> 00:03:59.460
+or more explanation or something
+
+147
+00:03:59.460 --> 00:04:00.980
+is missing, just tweet me out.
+
+148
+00:04:00.980 --> 00:04:02.660
+I would love to add that topic here.
+
+149
+00:04:03.310 --> 00:04:04.860
+So I guess that is quite more
+
+150
+00:04:04.860 --> 00:04:05.900
+than enough in the intro
+
+151
+00:04:05.900 --> 00:04:07.890
+about me and now I, I think
+
+152
+00:04:07.890 --> 00:04:09.530
+you also get that, that okay.
+
+153
+00:04:09.530 --> 00:04:10.850
+And again another thing that I would
+
+154
+00:04:10.850 --> 00:04:13.770
+like to mention about me is I enjoy
+
+155
+00:04:13.770 --> 00:04:16.250
+not just mindlessly like a robotic
+
+156
+00:04:16.250 --> 00:04:18.329
+way of just delivering the videos.
+
+157
+00:04:18.329 --> 00:04:20.769
+I prefer to have a style in it, ups
+
+158
+00:04:20.769 --> 00:04:22.970
+and downs on the videos and voices
+
+159
+00:04:22.970 --> 00:04:25.290
+and I love storytelling as well.
+
+160
+00:04:25.290 --> 00:04:26.490
+And my lectures are
+
+161
+00:04:26.490 --> 00:04:27.530
+a little bit laid back.
+
+162
+00:04:27.530 --> 00:04:28.930
+It's not really fast paced.
+
+163
+00:04:28.930 --> 00:04:29.890
+You're going to enjoy that.
+
+164
+00:04:29.890 --> 00:04:31.490
+If you wish you can turn me up into
+
+165
+00:04:31.490 --> 00:04:34.610
+1.5 but I prefer a laid back style
+
+166
+00:04:34.610 --> 00:04:36.420
+because your brain actually needs
+
+167
+00:04:36.420 --> 00:04:38.180
+some time to process the videos and
+
+168
+00:04:38.180 --> 00:04:39.780
+move it into the secondary storage
+
+169
+00:04:39.780 --> 00:04:41.780
+so that it's permanently saved a lot
+
+170
+00:04:41.780 --> 00:04:42.060
+of time.
+
+171
+00:04:42.060 --> 00:04:43.580
+People try to just move things
+
+172
+00:04:43.580 --> 00:04:46.060
+quickly in 1.5x or 2x and then
+
+173
+00:04:46.060 --> 00:04:48.100
+realize, I don't get the confidence
+
+174
+00:04:48.100 --> 00:04:49.860
+about this because you didn't allow
+
+175
+00:04:49.860 --> 00:04:51.500
+your brain to process this and move
+
+176
+00:04:51.500 --> 00:04:53.140
+into secondary storage so that it's
+
+177
+00:04:53.140 --> 00:04:53.980
+permanent.
+
+178
+00:04:53.980 --> 00:04:55.260
+So please don't do this.
+
+179
+00:04:55.260 --> 00:04:56.340
+Enjoy, the style.
+
+180
+00:04:56.340 --> 00:04:58.540
+It's not a race, it's a marathon.
+
+181
+00:04:58.540 --> 00:05:00.260
+Once you do Python with me, you
+
+182
+00:05:00.260 --> 00:05:01.660
+never have to look back again.
+
+183
+00:05:01.660 --> 00:05:03.220
+This is not going to be a tutorial
+
+184
+00:05:03.220 --> 00:05:04.660
+help, and this is going to be one
+
+185
+00:05:04.660 --> 00:05:05.660
+of the course which you will
+
+186
+00:05:05.660 --> 00:05:08.040
+absolutely commit complete.
+
+187
+00:05:08.040 --> 00:05:08.680
+Yes.
+
+188
+00:05:08.680 --> 00:05:10.800
+And we do run, also a lot of reward
+
+189
+00:05:10.800 --> 00:05:12.000
+programs as well on Twitter.
+
+190
+00:05:12.000 --> 00:05:13.560
+Whoever completes some section or
+
+191
+00:05:13.560 --> 00:05:15.480
+we give away tea shirts as well.
+
+192
+00:05:15.480 --> 00:05:16.840
+So there's a lot that going on.
+
+193
+00:05:16.840 --> 00:05:17.960
+Follow me up on Twitter as
+
+194
+00:05:17.960 --> 00:05:19.080
+well, and I think that's more
+
+195
+00:05:19.080 --> 00:05:20.440
+than enough of an intro.
+
+196
+00:05:20.440 --> 00:05:21.840
+Let's catch back and move
+
+197
+00:05:21.840 --> 00:05:23.160
+into the Python journey.

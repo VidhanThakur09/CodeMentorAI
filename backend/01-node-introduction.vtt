@@ -1,0 +1,1517 @@
+WEBVTT
+
+1
+00:00:00.160 --> 00:00:01.640
+Hey everyone and welcome to
+
+2
+00:00:01.640 --> 00:00:05.440
+an exciting new course on Node js.
+
+3
+00:00:05.440 --> 00:00:07.080
+In this particular course we
+
+4
+00:00:07.080 --> 00:00:09.040
+are going to learn Node js
+
+5
+00:00:09.040 --> 00:00:11.560
+that what is Node js and how you
+
+6
+00:00:11.560 --> 00:00:13.920
+can build web servers and a lot
+
+7
+00:00:13.920 --> 00:00:16.000
+of cool stuff with Node js.
+
+8
+00:00:16.000 --> 00:00:17.400
+As a quick introduction, my
+
+9
+00:00:17.400 --> 00:00:19.080
+name is Piyush Kirk and I
+
+10
+00:00:19.080 --> 00:00:20.400
+am going to be your instructor
+
+11
+00:00:20.400 --> 00:00:21.520
+throughout this course.
+
+12
+00:00:21.520 --> 00:00:22.920
+I'm a full stack developer
+
+13
+00:00:22.920 --> 00:00:25.240
+and a YouTuber and I have built
+
+14
+00:00:25.240 --> 00:00:27.000
+and created a lot of content
+
+15
+00:00:27.000 --> 00:00:28.640
+on my YouTube channel as well.
+
+16
+00:00:29.350 --> 00:00:31.790
+So this particular course on Node js
+
+17
+00:00:31.790 --> 00:00:34.230
+is actually very close to my heart.
+
+18
+00:00:34.230 --> 00:00:36.070
+So I have been working with Node js
+
+19
+00:00:36.070 --> 00:00:38.590
+for over, I guess 8 years, around 8
+
+20
+00:00:38.590 --> 00:00:41.150
+years and I have built a lot of cool
+
+21
+00:00:41.150 --> 00:00:43.790
+stuff around it and we are going to
+
+22
+00:00:43.790 --> 00:00:45.710
+discuss that how you can use Node
+
+23
+00:00:45.710 --> 00:00:46.390
+js.
+
+24
+00:00:46.390 --> 00:00:48.430
+And this is going to be an absolute
+
+25
+00:00:48.430 --> 00:00:50.070
+beginner to intermediate course.
+
+26
+00:00:50.070 --> 00:00:51.790
+The only prerequisite for
+
+27
+00:00:51.790 --> 00:00:53.590
+this particular course is
+
+28
+00:00:53.590 --> 00:00:55.030
+if you know JavaScript.
+
+29
+00:00:55.030 --> 00:00:55.770
+Okay?
+
+30
+00:00:55.770 --> 00:00:57.170
+So you should know basics
+
+31
+00:00:57.170 --> 00:00:59.250
+of JavaScript because ultimately
+
+32
+00:00:59.250 --> 00:01:00.370
+we are going to code a lot
+
+33
+00:01:00.370 --> 00:01:02.050
+of things in JavaScript, so only
+
+34
+00:01:02.050 --> 00:01:03.850
+that is the prerequisite.
+
+35
+00:01:03.850 --> 00:01:05.450
+Rest everything,
+
+36
+00:01:05.450 --> 00:01:07.250
+each and everything will be taught
+
+37
+00:01:07.250 --> 00:01:08.730
+in this particular class.
+
+38
+00:01:08.730 --> 00:01:10.250
+So in this particular course we are
+
+39
+00:01:10.250 --> 00:01:11.489
+going to cover like from the
+
+40
+00:01:11.489 --> 00:01:13.090
+absolute basics like what is Node
+
+41
+00:01:13.090 --> 00:01:15.610
+js, how Node js was built and how
+
+42
+00:01:15.610 --> 00:01:17.730
+Node js internally works all the
+
+43
+00:01:17.730 --> 00:01:20.480
+way to integrating Postgres in our,
+
+44
+00:01:20.480 --> 00:01:21.930
+Node js application and building
+
+45
+00:01:21.930 --> 00:01:23.770
+RESTful APIs along with
+
+46
+00:01:23.770 --> 00:01:25.490
+authentication, JWT sessions,
+
+47
+00:01:25.490 --> 00:01:27.070
+cookies and a lot of more stuff.
+
+48
+00:01:27.620 --> 00:01:29.220
+So I welcome you again
+
+49
+00:01:29.220 --> 00:01:31.380
+to this premium Node js course.
+
+50
+00:01:31.380 --> 00:01:34.140
+And with that let's start our very
+
+51
+00:01:34.140 --> 00:01:37.300
+first lecture on what is Node js?
+
+52
+00:01:37.300 --> 00:01:39.420
+So what is Node js?
+
+53
+00:01:39.420 --> 00:01:39.780
+Right?
+
+54
+00:01:40.340 --> 00:01:42.500
+So whenever we talk about or whenever
+
+55
+00:01:42.500 --> 00:01:44.340
+I ask my learners that, hey,
+
+56
+00:01:44.340 --> 00:01:45.820
+can you tell me what is Node js?
+
+57
+00:01:45.820 --> 00:01:47.260
+I get few answers like, hey,
+
+58
+00:01:47.260 --> 00:01:48.820
+it's a framework, or some
+
+59
+00:01:48.820 --> 00:01:50.500
+people say it's a library.
+
+60
+00:01:50.500 --> 00:01:51.500
+So I'm sure that you are
+
+61
+00:01:51.500 --> 00:01:52.620
+also confused that if it is
+
+62
+00:01:52.620 --> 00:01:53.900
+a framework or a library.
+
+63
+00:01:53.900 --> 00:01:54.900
+So let's understand that
+
+64
+00:01:54.900 --> 00:01:56.230
+what exactly is Node js?
+
+65
+00:01:56.860 --> 00:01:59.420
+Now before understanding what is Node
+
+66
+00:01:59.420 --> 00:02:02.460
+js, let's understand this js part.
+
+67
+00:02:02.460 --> 00:02:04.380
+js stands for JavaScript.
+
+68
+00:02:04.380 --> 00:02:05.980
+Do you even know that
+
+69
+00:02:05.980 --> 00:02:07.580
+what is JavaScript?
+
+70
+00:02:07.580 --> 00:02:08.539
+Let's try to understand
+
+71
+00:02:08.539 --> 00:02:10.139
+this JavaScript thing.
+
+72
+00:02:10.139 --> 00:02:11.460
+So let's say that you can see that
+
+73
+00:02:11.460 --> 00:02:12.940
+right now I have a browser here.
+
+74
+00:02:12.940 --> 00:02:14.540
+And on this particular browser I
+
+75
+00:02:14.540 --> 00:02:16.020
+have opened my personal portfolio
+
+76
+00:02:16.020 --> 00:02:18.060
+website that is on puresha.dev
+
+77
+00:02:18.060 --> 00:02:20.540
+now this browser can only
+
+78
+00:02:20.540 --> 00:02:22.550
+understand three languages, right?
+
+79
+00:02:22.550 --> 00:02:23.990
+This browser can only understand
+
+80
+00:02:23.990 --> 00:02:26.390
+HTML, CSS and JavaScript.
+
+81
+00:02:26.390 --> 00:02:28.310
+HTML that provides the basic
+
+82
+00:02:28.310 --> 00:02:30.030
+layout, basic structure to this
+
+83
+00:02:30.030 --> 00:02:31.910
+particular website, CSS is for
+
+84
+00:02:31.910 --> 00:02:33.950
+the styling part and JavaScript is
+
+85
+00:02:33.950 --> 00:02:35.350
+for the functionality part.
+
+86
+00:02:36.070 --> 00:02:38.230
+Now tell me one thing,
+
+87
+00:02:38.230 --> 00:02:40.310
+is there any other language that
+
+88
+00:02:40.310 --> 00:02:41.350
+a browser can understand?
+
+89
+00:02:41.910 --> 00:02:42.710
+Not really.
+
+90
+00:02:42.710 --> 00:02:44.110
+At least not at the time
+
+91
+00:02:44.110 --> 00:02:45.590
+of recording this video.
+
+92
+00:02:45.590 --> 00:02:48.070
+So these are the only three languages
+
+93
+00:02:48.070 --> 00:02:50.250
+which builds whole Internet,
+
+94
+00:02:50.250 --> 00:02:51.850
+which builds whole websites.
+
+95
+00:02:51.850 --> 00:02:53.890
+Okay, now here, one interesting
+
+96
+00:02:53.890 --> 00:02:55.370
+part is that there is
+
+97
+00:02:55.370 --> 00:02:57.010
+something known as JavaScript
+
+98
+00:02:57.010 --> 00:02:58.690
+engine inside the browser.
+
+99
+00:02:58.690 --> 00:02:59.810
+Let me show you one thing.
+
+100
+00:02:59.810 --> 00:03:01.290
+For example, if I open my
+
+101
+00:03:01.290 --> 00:03:02.530
+browser right here, so you can
+
+102
+00:03:02.530 --> 00:03:03.650
+see that I have a whiteboard
+
+103
+00:03:03.650 --> 00:03:05.089
+open and it's a browser.
+
+104
+00:03:05.089 --> 00:03:06.890
+And let's say I just open any website
+
+105
+00:03:06.890 --> 00:03:08.450
+that is like google.com, right?
+
+106
+00:03:08.450 --> 00:03:09.868
+I hope you know what is google.com
+
+107
+00:03:09.868 --> 00:03:10.850
+a huge shout out
+
+108
+00:03:10.850 --> 00:03:12.850
+to google.com amazing search engine.
+
+109
+00:03:13.410 --> 00:03:15.570
+So if I go into the console, right,
+
+110
+00:03:15.570 --> 00:03:17.170
+you can see I'm opening my console.
+
+111
+00:03:17.950 --> 00:03:20.150
+In this particular console I can
+
+112
+00:03:20.150 --> 00:03:22.990
+write any valid JavaScript code.
+
+113
+00:03:22.990 --> 00:03:24.470
+For example, if I say two
+
+114
+00:03:24.470 --> 00:03:25.870
+plus two, I'm getting four.
+
+115
+00:03:25.870 --> 00:03:28.390
+If I say console log and I say
+
+116
+00:03:28.390 --> 00:03:30.390
+hello, what you will notice is that
+
+117
+00:03:30.390 --> 00:03:32.950
+yes, I am able to run this code
+
+118
+00:03:32.950 --> 00:03:34.590
+without any error, without any
+
+119
+00:03:34.590 --> 00:03:36.430
+issue and I'm getting the hello as
+
+120
+00:03:36.430 --> 00:03:37.710
+console log.
+
+121
+00:03:37.710 --> 00:03:40.070
+How am I able to run this GS
+
+122
+00:03:40.070 --> 00:03:41.870
+code inside the console?
+
+123
+00:03:41.870 --> 00:03:44.000
+Because when you download
+
+124
+00:03:44.000 --> 00:03:45.240
+this browser, right now I'm
+
+125
+00:03:45.240 --> 00:03:46.760
+using a Chrome browser.
+
+126
+00:03:46.760 --> 00:03:49.080
+When you download this browser,
+
+127
+00:03:49.080 --> 00:03:50.920
+a js engine is
+
+128
+00:03:50.920 --> 00:03:53.160
+automatically shipped along.
+
+129
+00:03:53.160 --> 00:03:55.240
+So every browser, whichever you
+
+130
+00:03:55.240 --> 00:03:57.560
+download has something known as
+
+131
+00:03:57.560 --> 00:04:00.440
+JavaScript engine inside them.
+
+132
+00:04:00.440 --> 00:04:02.440
+With this JavaScript engine,
+
+133
+00:04:02.440 --> 00:04:04.720
+your browser is able to compile
+
+134
+00:04:04.720 --> 00:04:07.080
+and execute JavaScript code.
+
+135
+00:04:07.080 --> 00:04:09.200
+If your browser does not have this
+
+136
+00:04:09.200 --> 00:04:11.940
+JavaScript engine, there is no way
+
+137
+00:04:11.940 --> 00:04:13.420
+to run a JavaScript code.
+
+138
+00:04:14.140 --> 00:04:15.980
+So repeating my question again,
+
+139
+00:04:15.980 --> 00:04:18.060
+how am I able to run this code here?
+
+140
+00:04:18.060 --> 00:04:19.540
+Because I'm using a Chrome
+
+141
+00:04:19.540 --> 00:04:21.980
+and chrome has a JavaScript engine.
+
+142
+00:04:21.980 --> 00:04:23.700
+If this JavaScript engine was not
+
+143
+00:04:23.700 --> 00:04:25.740
+there, this, there is no chance
+
+144
+00:04:25.740 --> 00:04:27.740
+that this code is going to execute
+
+145
+00:04:27.740 --> 00:04:29.780
+right now with that, now we have a
+
+146
+00:04:29.780 --> 00:04:31.140
+knowledge that, okay, there are
+
+147
+00:04:31.140 --> 00:04:32.580
+three languages of a browser and
+
+148
+00:04:32.580 --> 00:04:34.100
+JavaScript engine is the one that
+
+149
+00:04:34.100 --> 00:04:35.460
+is responsible for running the
+
+150
+00:04:35.460 --> 00:04:36.540
+JavaScript.
+
+151
+00:04:36.540 --> 00:04:38.940
+Now JavaScript, due to this
+
+152
+00:04:38.940 --> 00:04:40.420
+JavaScript engine which is
+
+153
+00:04:40.420 --> 00:04:42.220
+directly embedded into a browser,
+
+154
+00:04:42.220 --> 00:04:43.780
+there is one limitation.
+
+155
+00:04:43.780 --> 00:04:46.900
+The limitation is that can you run
+
+156
+00:04:46.900 --> 00:04:49.540
+JavaScript outside the browser?
+
+157
+00:04:49.540 --> 00:04:52.180
+I'm asking you that, can you guys run
+
+158
+00:04:52.180 --> 00:04:54.020
+JavaScript outside the browser?
+
+159
+00:04:54.020 --> 00:04:55.540
+The answer is no.
+
+160
+00:04:55.540 --> 00:04:56.980
+Reason for that is because
+
+161
+00:04:56.980 --> 00:04:59.540
+JavaScript engine is embedded
+
+162
+00:04:59.540 --> 00:05:00.900
+into the browsers, it
+
+163
+00:05:00.900 --> 00:05:02.660
+is inside the browser.
+
+164
+00:05:02.660 --> 00:05:04.740
+So because on my system
+
+165
+00:05:04.740 --> 00:05:07.700
+I cannot have this GS engine thing.
+
+166
+00:05:07.700 --> 00:05:09.760
+There is no that I can run
+
+167
+00:05:09.760 --> 00:05:11.520
+JavaScript outside the browser.
+
+168
+00:05:11.520 --> 00:05:12.720
+And that's even fine.
+
+169
+00:05:12.720 --> 00:05:14.840
+That's fine because when JavaScript
+
+170
+00:05:14.840 --> 00:05:16.200
+was written, when JavaScript
+
+171
+00:05:16.200 --> 00:05:18.320
+was developed, it was developed
+
+172
+00:05:18.320 --> 00:05:19.680
+for the browsers, right?
+
+173
+00:05:19.680 --> 00:05:21.480
+The whole purpose of JavaScript
+
+174
+00:05:21.480 --> 00:05:22.320
+was to provide
+
+175
+00:05:22.320 --> 00:05:23.960
+the interactivity to browsers.
+
+176
+00:05:23.960 --> 00:05:25.360
+And that is where GS Engine
+
+177
+00:05:25.360 --> 00:05:26.760
+was born and browsers were
+
+178
+00:05:26.760 --> 00:05:28.640
+given the js engine, right?
+
+179
+00:05:28.640 --> 00:05:30.640
+So it's a limitation, but that's
+
+180
+00:05:30.640 --> 00:05:32.080
+a required thing, right?
+
+181
+00:05:32.080 --> 00:05:34.440
+Now every browser, like There
+
+182
+00:05:34.440 --> 00:05:35.760
+are various JavaScript engines.
+
+183
+00:05:35.760 --> 00:05:37.080
+For example, there is this
+
+184
+00:05:37.080 --> 00:05:39.200
+V8 engine which Chrome use.
+
+185
+00:05:39.200 --> 00:05:41.180
+There is this Spider Monkey which is
+
+186
+00:05:41.180 --> 00:05:42.260
+by Firefox, and there
+
+187
+00:05:42.260 --> 00:05:43.740
+is this Apple WebKit engine
+
+188
+00:05:43.740 --> 00:05:45.180
+which is used by Safari.
+
+189
+00:05:45.180 --> 00:05:46.580
+So all the browsers have
+
+190
+00:05:46.580 --> 00:05:48.300
+their own JavaScript engine.
+
+191
+00:05:48.300 --> 00:05:50.580
+And V8 by Chrome, Spider Monkey
+
+192
+00:05:50.580 --> 00:05:52.380
+by Firefox, and this Apple WebKit.
+
+193
+00:05:52.380 --> 00:05:52.980
+And there is no need
+
+194
+00:05:52.980 --> 00:05:53.740
+to remember them.
+
+195
+00:05:54.460 --> 00:05:57.420
+Now interesting part starts here.
+
+196
+00:05:57.420 --> 00:05:59.700
+Out of these JavaScript engines
+
+197
+00:05:59.700 --> 00:06:02.460
+out there, this V8 engine which
+
+198
+00:06:02.460 --> 00:06:04.860
+Chrome uses is an open source one.
+
+199
+00:06:04.860 --> 00:06:06.220
+What do I mean by open source?
+
+200
+00:06:06.220 --> 00:06:07.820
+Open source basically means
+
+201
+00:06:07.820 --> 00:06:10.750
+the code is publicly available.
+
+202
+00:06:10.750 --> 00:06:12.750
+The code of this v8 engine is
+
+203
+00:06:12.750 --> 00:06:14.830
+publicly available on the GitHub
+
+204
+00:06:14.830 --> 00:06:17.590
+now, because this v8 engine which is
+
+205
+00:06:17.590 --> 00:06:18.990
+inside the Chrome, this, this Chrome
+
+206
+00:06:18.990 --> 00:06:21.470
+has V8 engine which is open source.
+
+207
+00:06:21.470 --> 00:06:22.990
+You know this scientist, this
+
+208
+00:06:22.990 --> 00:06:24.990
+Rian D, his name is Rihan.
+
+209
+00:06:24.990 --> 00:06:26.670
+What he did, he did
+
+210
+00:06:26.670 --> 00:06:27.790
+something very crazy.
+
+211
+00:06:27.790 --> 00:06:28.830
+You know what he did?
+
+212
+00:06:28.830 --> 00:06:30.150
+He took this open source
+
+213
+00:06:30.150 --> 00:06:32.350
+engine, okay, open source V8 engine,
+
+214
+00:06:32.350 --> 00:06:34.110
+and embedded this V8
+
+215
+00:06:34.110 --> 00:06:36.030
+engine into a C program.
+
+216
+00:06:37.130 --> 00:06:39.810
+Now what I did took a V8 engine, take
+
+217
+00:06:39.810 --> 00:06:42.130
+a C program, take this V8 engine
+
+218
+00:06:42.130 --> 00:06:44.170
+and embed inside a C program.
+
+219
+00:06:44.170 --> 00:06:46.410
+Now you tell me, can you run C
+
+220
+00:06:46.970 --> 00:06:48.250
+outside the browser?
+
+221
+00:06:48.250 --> 00:06:48.730
+Of course.
+
+222
+00:06:48.730 --> 00:06:50.490
+C is a machine language, right?
+
+223
+00:06:51.050 --> 00:06:52.530
+It has the capability to talk
+
+224
+00:06:52.530 --> 00:06:53.850
+to the machine, to talk
+
+225
+00:06:53.850 --> 00:06:55.250
+to your hardware, to talk
+
+226
+00:06:55.250 --> 00:06:56.250
+to your operating system.
+
+227
+00:06:56.810 --> 00:06:59.770
+Now, when you embed this V8 engine
+
+228
+00:06:59.770 --> 00:07:03.280
+and into a C program, V8 engine is
+
+229
+00:07:03.280 --> 00:07:05.320
+capable of executing JavaScript.
+
+230
+00:07:05.320 --> 00:07:07.880
+C can run outside the browser.
+
+231
+00:07:07.880 --> 00:07:09.400
+With this particular thing,
+
+232
+00:07:09.400 --> 00:07:11.160
+you were able to execute
+
+233
+00:07:11.160 --> 00:07:13.800
+JavaScript outside the browser.
+
+234
+00:07:13.800 --> 00:07:16.680
+And this project, this V8,
+
+235
+00:07:16.680 --> 00:07:18.279
+engine embedded into the C,
+
+236
+00:07:19.000 --> 00:07:21.880
+this project was named as Node js.
+
+237
+00:07:21.880 --> 00:07:22.520
+Okay?
+
+238
+00:07:22.520 --> 00:07:23.560
+So if someone asks
+
+239
+00:07:23.560 --> 00:07:24.800
+you, what is node js?
+
+240
+00:07:24.800 --> 00:07:27.080
+Node js is basically a project made
+
+241
+00:07:27.080 --> 00:07:29.980
+by this crazy scientist ran that is
+
+242
+00:07:29.980 --> 00:07:32.260
+basically the open source V8 engine
+
+243
+00:07:32.260 --> 00:07:35.020
+of Chrome embedded into a C program.
+
+244
+00:07:35.740 --> 00:07:37.660
+So, if I go back to my previous
+
+245
+00:07:37.660 --> 00:07:38.660
+question that I asked
+
+246
+00:07:38.660 --> 00:07:40.060
+you that, what is node js?
+
+247
+00:07:40.060 --> 00:07:41.580
+Is it a framework?
+
+248
+00:07:41.580 --> 00:07:42.140
+No.
+
+249
+00:07:42.140 --> 00:07:43.340
+Is it a library?
+
+250
+00:07:43.340 --> 00:07:44.140
+No.
+
+251
+00:07:44.140 --> 00:07:45.780
+What is Node js then?
+
+252
+00:07:45.780 --> 00:07:46.220
+Right?
+
+253
+00:07:46.220 --> 00:07:48.020
+So Node js is nothing but just
+
+254
+00:07:48.020 --> 00:07:49.260
+a runtime environment.
+
+255
+00:07:50.220 --> 00:07:53.100
+So Node js, it's a C program with
+
+256
+00:07:53.100 --> 00:07:55.300
+V8 engine which provides you
+
+257
+00:07:55.300 --> 00:07:57.220
+an environment in which you can run
+
+258
+00:07:57.220 --> 00:07:59.370
+JavaScript outside the browser.
+
+259
+00:07:59.370 --> 00:08:00.690
+If you are from Java background,
+
+260
+00:08:00.690 --> 00:08:02.530
+let's say, do you know that there is
+
+261
+00:08:02.530 --> 00:08:03.930
+something known as jvm, right?
+
+262
+00:08:03.930 --> 00:08:06.130
+There is JVM and there is
+
+263
+00:08:06.130 --> 00:08:07.290
+something known as jre.
+
+264
+00:08:08.170 --> 00:08:09.290
+What is gre?
+
+265
+00:08:09.290 --> 00:08:10.690
+Just in case you know Java, that
+
+266
+00:08:10.690 --> 00:08:12.330
+is Java runtime environment.
+
+267
+00:08:12.330 --> 00:08:14.810
+If you want to run any Java code
+
+268
+00:08:14.810 --> 00:08:16.250
+on your, on your system,
+
+269
+00:08:16.250 --> 00:08:17.610
+you should have that GRE
+
+270
+00:08:17.610 --> 00:08:19.410
+installed similar to that.
+
+271
+00:08:19.410 --> 00:08:21.130
+If you want to run JavaScript,
+
+272
+00:08:21.130 --> 00:08:22.490
+you should have this V8,
+
+273
+00:08:22.490 --> 00:08:24.650
+any JavaScript engine installed.
+
+274
+00:08:24.650 --> 00:08:26.250
+In browsers you have these
+
+275
+00:08:26.250 --> 00:08:27.780
+engines by default, Shift.
+
+276
+00:08:27.780 --> 00:08:29.580
+But on your machine, if you Want
+
+277
+00:08:29.580 --> 00:08:31.420
+to run JavaScript outside of the
+
+278
+00:08:31.420 --> 00:08:32.820
+machine, you can download this
+
+279
+00:08:32.820 --> 00:08:34.140
+node js, which is a runtime
+
+280
+00:08:34.140 --> 00:08:35.860
+environment, basically a C
+
+281
+00:08:35.860 --> 00:08:37.179
+program, along with the Chrome's
+
+282
+00:08:37.179 --> 00:08:38.100
+V8 engine.
+
+283
+00:08:38.100 --> 00:08:39.780
+So crazy stuff, right?
+
+284
+00:08:39.780 --> 00:08:41.539
+So this is basically Node js.
+
+285
+00:08:41.539 --> 00:08:43.539
+Now what are what were the advantages
+
+286
+00:08:43.539 --> 00:08:44.660
+of this particular approach?
+
+287
+00:08:45.300 --> 00:08:46.500
+With this approach, number
+
+288
+00:08:46.500 --> 00:08:47.900
+one, you can run JavaScript
+
+289
+00:08:47.900 --> 00:08:49.060
+outside the browser.
+
+290
+00:08:49.060 --> 00:08:50.300
+You can build web servers
+
+291
+00:08:50.300 --> 00:08:51.460
+with JavaScript, you can build
+
+292
+00:08:51.460 --> 00:08:52.700
+CLI tools with JavaScript.
+
+293
+00:08:52.700 --> 00:08:54.060
+You can build iOS and Android
+
+294
+00:08:54.060 --> 00:08:55.420
+applications with JavaScript.
+
+295
+00:08:55.420 --> 00:08:57.020
+And you can even build like,
+
+296
+00:08:57.020 --> 00:08:58.300
+applications for IoT.
+
+297
+00:08:58.300 --> 00:08:59.460
+You can build applications for,
+
+298
+00:08:59.460 --> 00:09:00.980
+let's say Apple Var or any
+
+299
+00:09:00.980 --> 00:09:02.620
+other smartwatch on this earth.
+
+300
+00:09:02.620 --> 00:09:04.140
+So the possibilities
+
+301
+00:09:04.140 --> 00:09:05.500
+are actually endless.
+
+302
+00:09:05.500 --> 00:09:06.700
+So huge.
+
+303
+00:09:06.700 --> 00:09:07.940
+Shout out to Rayan,
+
+304
+00:09:07.940 --> 00:09:09.180
+who developed Node js.
+
+305
+00:09:09.180 --> 00:09:10.220
+Thank you so much.
+
+306
+00:09:10.220 --> 00:09:11.900
+And let me show you.
+
+307
+00:09:11.900 --> 00:09:13.580
+So if I open up my terminal,
+
+308
+00:09:13.580 --> 00:09:15.300
+okay, so let's say if I, open
+
+309
+00:09:15.300 --> 00:09:16.900
+up my terminal, so you can see that
+
+310
+00:09:16.900 --> 00:09:18.540
+this is my terminal window.
+
+311
+00:09:18.540 --> 00:09:20.300
+So this is a terminal window which is
+
+312
+00:09:20.300 --> 00:09:21.790
+of course outside the browser.
+
+313
+00:09:21.790 --> 00:09:22.910
+Now see what I can do is
+
+314
+00:09:22.910 --> 00:09:24.550
+I already have Node js
+
+315
+00:09:24.550 --> 00:09:25.670
+installed on my machine.
+
+316
+00:09:25.670 --> 00:09:26.910
+And don't worry, in the next
+
+317
+00:09:26.910 --> 00:09:28.150
+video I'll show you how
+
+318
+00:09:28.150 --> 00:09:30.110
+you can also install Node js
+
+319
+00:09:30.110 --> 00:09:32.750
+if I type node and enter.
+
+320
+00:09:32.750 --> 00:09:33.790
+Can you see that?
+
+321
+00:09:33.790 --> 00:09:35.670
+Actually I am into the Node
+
+322
+00:09:35.670 --> 00:09:37.310
+js, which is version 22.
+
+323
+00:09:37.310 --> 00:09:39.950
+And now if I say console log.
+
+324
+00:09:39.950 --> 00:09:42.310
+Hey there, do you think that
+
+325
+00:09:42.310 --> 00:09:44.030
+this code is going to execute?
+
+326
+00:09:44.030 --> 00:09:44.670
+Let's try.
+
+327
+00:09:44.670 --> 00:09:46.750
+If I do enter, this code
+
+328
+00:09:46.750 --> 00:09:48.350
+was executing fine.
+
+329
+00:09:48.350 --> 00:09:49.830
+If I say two plus five, you
+
+330
+00:09:49.830 --> 00:09:51.230
+can see I'm getting seven.
+
+331
+00:09:51.230 --> 00:09:53.690
+So can you see that I am able to exit
+
+332
+00:09:53.690 --> 00:09:55.570
+execute this code which was, which
+
+333
+00:09:55.570 --> 00:09:57.490
+is in JavaScript, which browsers
+
+334
+00:09:57.490 --> 00:10:00.090
+can run outside of the browser?
+
+335
+00:10:00.090 --> 00:10:00.650
+Why?
+
+336
+00:10:00.650 --> 00:10:03.050
+Because I have Node js installed.
+
+337
+00:10:03.050 --> 00:10:05.330
+Can this be possible if I didn't
+
+338
+00:10:05.330 --> 00:10:06.610
+have the Node js installed?
+
+339
+00:10:06.610 --> 00:10:08.890
+No, because I need the js engine.
+
+340
+00:10:08.890 --> 00:10:10.810
+So for this particular js engine
+
+341
+00:10:10.810 --> 00:10:12.450
+thing, I have installed Node
+
+342
+00:10:12.450 --> 00:10:14.170
+js, which provides this
+
+343
+00:10:14.170 --> 00:10:16.330
+JavaScript v8 engine in my
+
+344
+00:10:16.330 --> 00:10:17.890
+machine, in my local machine
+
+345
+00:10:17.890 --> 00:10:19.370
+and I can run JavaScript
+
+346
+00:10:19.370 --> 00:10:20.410
+outside the browser.
+
+347
+00:10:21.150 --> 00:10:22.510
+So I hope that with this
+
+348
+00:10:22.510 --> 00:10:24.750
+particular video you got a clarity
+
+349
+00:10:24.750 --> 00:10:26.670
+on what Node js is.
+
+350
+00:10:26.670 --> 00:10:28.070
+Okay, because we are going
+
+351
+00:10:28.070 --> 00:10:29.790
+to code a lot of things in Node js.
+
+352
+00:10:29.790 --> 00:10:31.630
+So you have to keep in mind that Node
+
+353
+00:10:31.630 --> 00:10:34.830
+js is not a framework or a library,
+
+354
+00:10:34.830 --> 00:10:38.190
+it is actually a JavaScript runtime.
+
+355
+00:10:38.190 --> 00:10:39.670
+Okay, so if I just go on
+
+356
+00:10:39.670 --> 00:10:41.310
+to the Node js official website.
+
+357
+00:10:41.310 --> 00:10:43.230
+Okay, so let's visit the official
+
+358
+00:10:43.230 --> 00:10:44.830
+website of Node js.
+
+359
+00:10:44.830 --> 00:10:46.150
+So what you will notice is it
+
+360
+00:10:46.150 --> 00:10:48.230
+says run JavaScript everywhere.
+
+361
+00:10:48.230 --> 00:10:49.790
+So Node js is a free again,
+
+362
+00:10:49.790 --> 00:10:51.070
+it's a free and open source.
+
+363
+00:10:51.070 --> 00:10:52.790
+Node js project is also,
+
+364
+00:10:52.790 --> 00:10:55.510
+is also open source cross platform
+
+365
+00:10:55.510 --> 00:10:57.670
+JavaScript runtime environment
+
+366
+00:10:57.670 --> 00:11:00.230
+that lets developers create
+
+367
+00:11:00.230 --> 00:11:02.310
+servers, web applications, command
+
+368
+00:11:02.310 --> 00:11:03.590
+line tools and scripts.
+
+369
+00:11:03.590 --> 00:11:05.490
+Okay, so this is basically your
+
+370
+00:11:06.470 --> 00:11:07.750
+what do you call Node js?
+
+371
+00:11:07.750 --> 00:11:08.910
+And you can see that we have a lot
+
+372
+00:11:08.910 --> 00:11:10.750
+of examples also which we will
+
+373
+00:11:10.750 --> 00:11:13.510
+eventually see as we move forward.
+
+374
+00:11:13.510 --> 00:11:14.950
+But in this video, the main
+
+375
+00:11:14.950 --> 00:11:16.310
+motive was to teach you
+
+376
+00:11:16.310 --> 00:11:17.740
+that what is Node js?
+
+377
+00:11:18.370 --> 00:11:19.810
+So with that, let's end the video
+
+378
+00:11:19.810 --> 00:11:21.450
+and I'll meet you in the next one.
+
+379
+00:11:21.450 --> 00:11:23.733
+Until then, bye bye and take care of.
