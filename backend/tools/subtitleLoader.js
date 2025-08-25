@@ -15,30 +15,30 @@ export default async function loadFiles(filePath='',courseName) {
     // title: "Document title",
   });
 
-  const qdrantConfig = {
-      url: process.env.QDRANT_URL,
-      collectionName: courseName,
-      apiKey: process.env.QDRANT_API_KEY,
-  };
+  // const qdrantConfig = {
+  //     url: process.env.QDRANT_URL,
+  //     collectionName: courseName,
+  //     apiKey: process.env.QDRANT_API_KEY,
+  // };
 
-  const Deleteembeddings =  new GoogleGenerativeAIEmbeddings({
-    apiKey: process.env.GEMINI_API_KEY,
-    model: "text-embedding-004", // 768 dimensions
-    // taskType: TaskType.RETRIEVAL_DOCUMENT,
-    // title: "Document title",
-  });
+  // const Deleteembeddings =  new GoogleGenerativeAIEmbeddings({
+  //   apiKey: process.env.GEMINI_API_KEY,
+  //   model: "text-embedding-004", // 768 dimensions
+  //   // taskType: TaskType.RETRIEVAL_DOCUMENT,
+  //   // title: "Document title",
+  // });
 
-  const delVectorStore = new QdrantVectorStore(Deleteembeddings, qdrantConfig);
-  const qdrantClient = delVectorStore.client;
+  // const delVectorStore = new QdrantVectorStore(Deleteembeddings, qdrantConfig);
+  // const qdrantClient = delVectorStore.client;
 
-  try {
-    await qdrantClient.deleteCollection(qdrantConfig.collectionName);
-    console.log(
-      `Collection '${qdrantConfig.collectionName}' deleted successfully.`
-    );
-  } catch (error) {
-    console.error("Error deleting collection:", error);
-  }
+  // try {
+  //   await qdrantClient.deleteCollection(qdrantConfig.collectionName);
+  //   console.log(
+  //     `Collection '${qdrantConfig.collectionName}' deleted successfully.`
+  //   );
+  // } catch (error) {
+  //   console.error("Error deleting collection:", error);
+  // }
 
   const vectorStore = await QdrantVectorStore.fromDocuments(docs, embeddings, {
     url: process.env.QDRANT_URL,
